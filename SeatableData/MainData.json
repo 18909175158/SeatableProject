@@ -1,0 +1,127 @@
+{
+  'workspace_list': [
+    {
+      'id': '',
+      'name': 'starred',
+      'table_list': [],
+      'type': 'starred'
+    },
+    {
+      'id': '',
+      'name': 'shared',
+      'shared_table_list': [],
+      'shared_view_list': [],
+      'type': 'shared'
+    },
+    {
+      'folders': [],
+      'id': 189828,
+      'name': 'personal',
+      'table_list': [
+        {
+          'color': '#02C0FF',
+          'created_at': '2022-01-07T13:41:15+08:00',
+          'creator': '管理员',
+          'icon': 'icon-work-log',
+          'id': 487959,
+          'modifier': '管理员',
+          'name': '维修记录表',
+          'starred': False,
+          'text_color': None,
+          'updated_at': '2022-01-07T13:41:15+08:00',
+          'uuid': '2c3fa054-d74e-48ab-87d1-0d7b42a4f18c',
+          'workspace_id': 189828
+        },
+        {
+          'color': '#1688FC',
+          'created_at': '2022-01-04T23:18:44+08:00',
+          'creator': '管理员',
+          'icon': 'icon-design-assignment',
+          'id': 484324,
+          'modifier': '管理员',
+          'name': '配件管理总表',
+          'starred': False,
+          'text_color': None,
+          'updated_at': '2022-01-07T13:40:44+08:00',
+          'uuid': '281767ed-a9d8-4198-b9fd-9e1ca70d6fe0',
+          'workspace_id': 189828
+        }
+      ],
+      'type': 'personal'
+    },
+    {
+      'folders': [],
+      'group_admins': [
+        '500fe020d96b4177b1970d8a907157b3@auth.local'
+      ],
+      'group_id': 9818,
+      'group_member_count': 1,
+      'group_owner': 'system admin',
+      'group_shared_dtables': [],
+      'group_shared_views': [],
+      'id': 190464,
+      'name': '设备组',
+      'table_list': [],
+      'type': 'group'
+    },
+    {
+      'folders': [],
+      'group_admins': [],
+      'group_id': 9822,
+      'group_member_count': 1,
+      'group_owner': 'system admin',
+      'group_shared_dtables': [
+        {
+          'color': '#1688FC',
+          'created_at': '2022-01-04T23:18:44+08:00',
+          'creator': '管理员',
+          'dtable_share_id': 3839,
+          'icon': 'icon-design-assignment',
+          'id': 484324,
+          'modifier': '管理员',
+          'name': '配件管理总表',
+          'starred': False,
+          'text_color': None,
+          'updated_at': '2022-01-07T13:40:44+08:00',
+          'uuid': '281767ed-a9d8-4198-b9fd-9e1ca70d6fe0',
+          'workspace_id': 189828
+        }
+      ],
+      'group_shared_views': [],
+      'id': 190478,
+      'name': '机电修',
+      'table_list': [],
+      'type': 'group'
+    },
+    {
+      'folders': [],
+      'group_admins': [
+        '500fe020d96b4177b1970d8a907157b3@auth.local'
+      ],
+      'group_id': 9823,
+      'group_member_count': 2,
+      'group_owner': 'system admin',
+      'group_shared_dtables': [],
+      'group_shared_views': [],
+      'id': 190479,
+      'name': '自动线工段',
+      'table_list': [],
+      'type': 'group'
+    },
+    {
+      'folders': [],
+      'group_admins': [
+        '500fe020d96b4177b1970d8a907157b3@auth.local'
+      ],
+      'group_id': 9824,
+      'group_member_count': 2,
+      'group_owner': 'system admin',
+      'group_shared_dtables': [],
+      'group_shared_views': [],
+      'id': 190498,
+      'name': '锻压机工段',
+      'table_list': [],
+      'type': 'group'
+    }
+  ]
+}
