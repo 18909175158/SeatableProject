@@ -234,8 +234,13 @@
 # record_list = record_base.query('select ' + needful_record_keys + ' from 维修记录')
 # pic_record_list = record_base.query('select ' + needful_record_keys + ' from 维修记录（图片版）')
 # print(pic_record_list)
-import re
-model1 = 'fdsa——43ff545——21'
-en_regex = re.compile(r'\bv\d+\.\d+\b|\b\d+.\d+\b|[0-9a-z]+')
-model1_piece_list = en_regex.findall(model1.lower())
-print(model1_piece_list)
+# import re
+# model1 = 'fdsa——43ff545——21'
+# en_regex = re.compile(r'\bv\d+\.\d+\b|\b\d+.\d+\b|[0-9a-z]+')
+# model1_piece_list = en_regex.findall(model1.lower())
+# print(model1_piece_list)
+from WeChatPYAPI import WeChatPYApi
+w = WeChatPYApi()
+# num = w.start_wx()
+# print(num)
+# # print(msg)
