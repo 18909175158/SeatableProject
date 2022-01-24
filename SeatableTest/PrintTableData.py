@@ -6,13 +6,15 @@ api_token = context.api_token or 'a5525acad5ee5f21a3dd2dc39cc05bf1dee3a9eb'
 
 base = Base(api_token, server_url)
 base.auth()
+
+pprint.pprint(base.get_metadata())
 # c='_id,_ctime,普通配件型号,故障日期,是否已整理'
 # d= base.query('select * from 维修记录')
 # pprint.pprint(d)
-a=base.query('select * from 维修记录')
-print(a)
+# a=base.query('select * from 维修记录')
+# print(a)
 # print(a[0].keys())
-print(a[0]['_ctime'][:10])
+# print(a[0]['_ctime'][:10])
 
 # b=''
 # for k in list(a[0].keys()):
