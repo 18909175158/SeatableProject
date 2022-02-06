@@ -239,8 +239,29 @@
 # en_regex = re.compile(r'\bv\d+\.\d+\b|\b\d+.\d+\b|[0-9a-z]+')
 # model1_piece_list = en_regex.findall(model1.lower())
 # print(model1_piece_list)
-from WeChatPYAPI import WeChatPYApi
-w = WeChatPYApi()
+# from WeChatPYAPI import WeChatPYApi
+# w = WeChatPYApi()
 # num = w.start_wx()
 # print(num)
 # # print(msg)
+# s='xcx.zhichiweiye.com,xcx.zhichiweiye.cn,jisuapp.zhichiweiye.com,jisuapp.zhichiweiye.cn,xcx.yingyonghao8.com'
+# l=s.split(',')
+# # print(l)
+# l1=['tcp://'+i+';\n' for i in l]
+# # print(l1)
+# s1=''
+# for i1 in l1:
+#     s1+=i1
+# print(s1)
+# a='备料,自动线,锻压机,热处理,模锻,轻跨,精锻'
+# al=a.split(',')
+# # print(al)
+# bl=['配件','维修详情','维修详情（图片）']
+# for ai in al:
+#     for bi in bl:
+#         print(ai+bi)
+welcome_str = '欢迎进入维修数据管理系统！\
+\n点击下方链接进入功能页面，\
+\n回复”1“或者”帮助“获取更多帮助，\
+\n回复”2“或者”地址“重新获取功能页链接。'
+print(welcome_str)

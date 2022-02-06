@@ -2,12 +2,29 @@ from seatable_api import Base, context
 import pprint
 
 server_url = context.server_url or 'https://cloud.seatable.cn'
-api_token = context.api_token or 'a5525acad5ee5f21a3dd2dc39cc05bf1dee3a9eb'
+api_token = context.api_token or '6ae59ed31314c62891fd69fc9426f813b6d690cf'
 
 base = Base(api_token, server_url)
 base.auth()
 
-pprint.pprint(base.get_metadata())
+appd=[]
+dict={}
+ba=base.list_rows('入口地址')
+# pprint.pprint(ba)
+for d in ba:
+    dict[d['名称']] = d['链接']
+pprint.pprint(dict)
+
+# pprint.pprint(a)
+# a='备料,自动线,锻压机,热处理,模锻,轻跨,精锻'
+# al=a.split(',')
+# # print(al)
+# bl=['普通配件','重要配件','维修详情','维修详情（图片）']
+# for ai in al:
+#     for bi in bl:
+#         appd.append({'名称':ai+bi})
+# base.batch_append_rows('视图',appd)
+# pprint.pprint(appd)
 # c='_id,_ctime,普通配件型号,故障日期,是否已整理'
 # d= base.query('select * from 维修记录')
 # pprint.pprint(d)
